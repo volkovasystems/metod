@@ -1,0 +1,31 @@
+{
+  "name": "metod",
+  "version": "0.0.0",
+  "description": "Extract a list of methods.",
+  "main": "metod.deploy.js",
+  "support": "metod.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "extract",
+    "list",
+    "of",
+    "method",
+    "metod"
+  ],
+  "homepage": "https://github.com/volkovasystems/metod",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "falzy": "^0.17.0",
+    "conztant": "^0.0.0",
+    "protype": "^0.21.0"
+  }
+}
