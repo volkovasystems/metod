@@ -1,6 +1,6 @@
 {
   "name": "metod",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Extract a list of methods.",
   "main": "metod.js",
   "support": "metod.support.js",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/volkovasystems/metod#readme",
   "dependencies": {
+    "ate": "^0.15.0",
     "babel-runtime": "^6.23.0",
     "conztant": "^0.0.0",
     "falzy": "^0.17.0",

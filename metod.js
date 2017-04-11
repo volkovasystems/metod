@@ -47,6 +47,7 @@
 
 	@include:
 		{
+			"ate": "ate",
 			"conztant": "conztant",
 			"falzy": "falzy",
 			"protype": "protype"
@@ -54,6 +55,7 @@
 	@end-include
 */
 
+const ate = require( "ate" );
 const conztant = require( "conztant" );
 const falzy = require( "falzy" );
 const protype = require( "protype" );
@@ -73,7 +75,8 @@ const metod = function metod( entity ){
 
 	try{
 		return Object.getOwnPropertyNames( entity )
-			.filter( ( property ) => ( !conztant( property ) && protype( entity[ property ], FUNCTION ) ) );
+			.filter( ( property ) => ( !conztant( property ) && protype( entity[ property ], FUNCTION ) ) )
+			.map( ( property ) => ( ate( "name", property, entity[ property ] ), entity[ property ] ) );
 
 	}catch( error ){
 		return [ ];

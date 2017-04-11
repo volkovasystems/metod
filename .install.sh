@@ -1,5 +1,6 @@
 yarn add \
 babel-runtime \
+ate \
 falzy \
 conztant \
 protype \
@@ -13,6 +14,7 @@ source-map-loader \
 webpack \
 --dev && \
 bower install \
+ate \
 falzy \
 conztant \
 protype \
