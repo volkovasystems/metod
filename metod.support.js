@@ -47,16 +47,16 @@
               
               	@include:
               		{
-              			"ate": "ate",
               			"conztant": "conztant",
+              			"ensnme": "ensnme",
               			"falzy": "falzy",
               			"protype": "protype"
               		}
               	@end-include
               */var _getOwnPropertyNames = require("babel-runtime/core-js/object/get-own-property-names");var _getOwnPropertyNames2 = _interopRequireDefault(_getOwnPropertyNames);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
-var ate = require("ate");
 var conztant = require("conztant");
+var ensnme = require("ensnme");
 var falzy = require("falzy");
 var protype = require("protype");
 
@@ -76,7 +76,7 @@ var metod = function metod(entity) {
 	try {
 		return (0, _getOwnPropertyNames2.default)(entity).
 		filter(function (property) {return !conztant(property) && protype(entity[property], FUNCTION);}).
-		map(function (property) {return ate("name", property, entity[property]), entity[property];});
+		map(function (property) {return ensnme(entity[property]);});
 
 	} catch (error) {
 		return [];
