@@ -47,18 +47,16 @@
 
 	@include:
 		{
-			"conztant": "conztant",
 			"ensnme": "ensnme",
 			"falzy": "falzy",
-			"protype": "protype"
+			"meton": "meton"
 		}
 	@end-include
 */
 
-const conztant = require( "conztant" );
 const ensnme = require( "ensnme" );
 const falzy = require( "falzy" );
-const protype = require( "protype" );
+const meton = require( "meton" );
 
 const metod = function metod( entity ){
 	/*;
@@ -74,9 +72,7 @@ const metod = function metod( entity ){
 	}
 
 	try{
-		return Object.getOwnPropertyNames( entity )
-			.filter( ( property ) => ( !conztant( property ) && protype( entity[ property ], FUNCTION ) ) )
-			.map( ( property ) => ensnme( entity[ property ] ) );
+		return meton( entity ).map( ( property ) => ensnme( entity[ property ] ) );
 
 	}catch( error ){
 		return [ ];

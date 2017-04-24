@@ -2,8 +2,7 @@ yarn add \
 babel-runtime \
 falzy \
 ensnme \
-conztant \
-protype \
+meton \
 --save && \
 yarn add \
 babel-cli \
@@ -16,7 +15,6 @@ webpack \
 bower install \
 falzy \
 ensnme \
-conztant \
-protype \
+meton \
 --save \
 --force-latest
