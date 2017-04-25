@@ -1,11 +1,12 @@
 {
   "name": "metod",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Extract a list of methods.",
   "main": "metod.deploy.js",
   "support": "metod.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -23,12 +24,9 @@
     "test",
     "tests"
   ],
-  "resolutions": {
-    "kein": "^0.18.0"
-  },
   "dependencies": {
     "falzy": "^0.19.0",
-    "ensnme": "^0.0.0",
+    "ensnme": "^0.2.0",
     "meton": "^0.0.0"
   }
 }
