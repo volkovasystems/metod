@@ -1,4 +1,6 @@
-
+const assert = require( "assert" );
 const metod = require( "./metod.js" );
 
-console.log( metod( Object.prototype ) );
+assert.ok( metod( Object.prototype ) );
+
+console.log( "ok" );
