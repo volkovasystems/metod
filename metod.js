@@ -50,6 +50,7 @@
 
 	@include:
 		{
+			"een": "een",
 			"ensnme": "ensnme",
 			"falzy": "falzy",
 			"meton": "meton"
@@ -57,6 +58,7 @@
 	@end-include
 */
 
+const een = require( "een" );
 const ensnme = require( "ensnme" );
 const falzy = require( "falzy" );
 const meton = require( "meton" );
@@ -75,7 +77,15 @@ const metod = function metod( entity ){
 	}
 
 	try{
-		return meton( entity ).map( ( property ) => ensnme( entity[ property ] ) );
+		return meton( entity ).reduce( ( list, property ) => {
+			let method = ensnme( entity[ property ] );
+
+			if( !een( list, method ) ){
+				list.push( method );
+			}
+
+			return list;
+		}, [ ] );
 
 	}catch( error ){
 		return [ ];

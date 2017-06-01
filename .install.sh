@@ -1,6 +1,7 @@
 yarn add \
 babel-runtime \
 falzy \
+een \
 ensnme \
 meton \
 --save && \
@@ -14,6 +15,7 @@ webpack \
 --dev && \
 bower install \
 falzy \
+een \
 ensnme \
 meton \
 --save \

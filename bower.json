@@ -1,6 +1,6 @@
 {
   "name": "metod",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Extract a list of methods.",
   "main": "metod.deploy.js",
   "support": "metod.support.js",
@@ -12,7 +12,6 @@
   "keywords": [
     "extract",
     "list",
-    "of",
     "method",
     "metod"
   ],
@@ -26,7 +25,8 @@
   ],
   "dependencies": {
     "falzy": "^0.19.0",
+    "een": "^0.18.0",
     "ensnme": "^0.4.0",
-    "meton": "^0.0.0"
+    "meton": "^0.1.0"
   }
 }
