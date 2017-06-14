@@ -2,6 +2,6 @@
 const assert = require( "assert" );
 const metod = require( "./metod.js" );
 
-assert.ok( metod( Object.prototype ) );
+assert.equal( metod( Object.prototype ).length , 10, "should return 10" );
 
 console.log( "ok" );
