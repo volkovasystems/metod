@@ -70,6 +70,12 @@ const path = require( "path" );
 
 describe( "metod", ( ) => {
 
+	describe( "`metod( Object.prototype )`", ( ) => {
+		it( "should return array containing a list of methods", ( ) => {
+			assert.equal( metod( Object.prototype ).length == 10, true );
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -78,6 +84,13 @@ describe( "metod", ( ) => {
 //: @client:
 
 describe( "metod", ( ) => {
+
+	describe( "`metod( Object.prototype )`", ( ) => {
+		it( "should return array containing a list of methods", ( ) => {
+			assert.equal( metod( Object.prototype ).length == 10, true );
+		} );
+	} );
+
 } );
 
 //: @end-client
@@ -86,6 +99,25 @@ describe( "metod", ( ) => {
 //: @bridge:
 
 describe( "metod", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`metod( Object.prototype )`", ( ) => {
+		it( "should return array containing a list of methods", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return metod( Object.prototype ).length == 10;
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
 } );
 
 //: @end-bridge
