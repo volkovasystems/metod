@@ -66,6 +66,12 @@ const metod = require( "./metod.js" );
 
 describe( "metod", ( ) => {
 
+	describe( "`metod( Object.prototype )`", ( ) => {
+		it( "should return array containing a list of methods", ( ) => {
+			assert.equal( metod( Object.prototype ).length == 10, true );
+		} );
+	} );
+
 } );
 
 //: @end-server

@@ -23,5 +23,11 @@
 		"bower_components",
 		"test",
 		"tests"
-	]
+	],
+	"dependencies": {
+		"falzy": "^0.23.0",
+		"een": "^0.23.0",
+		"ensnme": "^0.10.0",
+		"meton": "^0.5.0"
+	}
 }

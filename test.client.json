@@ -1,0 +1,84 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-17T10:52:58.173Z",
+	"end": "2017-08-17T10:53:37.728Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "metod",
+			"duration": 0,
+			"start": "2017-08-17T10:53:37.427Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "metod",
+			"duration": 121,
+			"start": "2017-08-17T10:53:37.427Z",
+			"end": "2017-08-17T10:53:37.548Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-17T10:53:37.429Z",
+					"end": "2017-08-17T10:53:37.429Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "metod",
+					"associatedTest": "should return array containing a list of methods"
+				},
+				{
+					"start": "2017-08-17T10:53:37.547Z",
+					"end": "2017-08-17T10:53:37.548Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "metod",
+					"associatedTest": "should return array containing a list of methods"
+				},
+				{
+					"start": "2017-08-17T10:53:37.548Z",
+					"end": "2017-08-17T10:53:37.549Z",
+					"duration": 1,
+					"title": "\"after all\" hook",
+					"associatedSuite": "metod"
+				}
+			]
+		},
+		{
+			"name": "`metod( Object.prototype )`",
+			"duration": 120,
+			"start": "2017-08-17T10:53:37.428Z",
+			"end": "2017-08-17T10:53:37.548Z",
+			"tests": [
+				{
+					"name": "should return array containing a list of methods",
+					"start": "2017-08-17T10:53:37.428Z",
+					"end": "2017-08-17T10:53:37.547Z",
+					"duration": 119,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}
