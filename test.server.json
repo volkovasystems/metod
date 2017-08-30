@@ -5,15 +5,15 @@
 		"passes": 1,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-17T10:52:57.072Z",
-		"end": "2017-08-17T10:52:57.081Z",
-		"duration": 9
+		"start": "2017-08-30T03:31:35.365Z",
+		"end": "2017-08-30T03:31:35.375Z",
+		"duration": 10
 	},
 	"tests": [
 		{
 			"title": "should return array containing a list of methods",
 			"fullTitle": "metod `metod( Object.prototype )` should return array containing a list of methods",
-			"duration": 5,
+			"duration": 6,
 			"currentRetry": 0,
 			"err": {}
 		}
@@ -24,7 +24,7 @@
 		{
 			"title": "should return array containing a list of methods",
 			"fullTitle": "metod `metod( Object.prototype )` should return array containing a list of methods",
-			"duration": 5,
+			"duration": 6,
 			"currentRetry": 0,
 			"err": {}
 		}

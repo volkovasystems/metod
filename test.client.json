@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-17T10:52:58.173Z",
-	"end": "2017-08-17T10:53:37.728Z",
+	"start": "2017-08-30T03:31:36.485Z",
+	"end": "2017-08-30T03:32:16.334Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,37 +28,37 @@
 		{
 			"name": "metod",
 			"duration": 0,
-			"start": "2017-08-17T10:53:37.427Z",
+			"start": "2017-08-30T03:32:16.013Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "metod",
-			"duration": 121,
-			"start": "2017-08-17T10:53:37.427Z",
-			"end": "2017-08-17T10:53:37.548Z",
+			"duration": 140,
+			"start": "2017-08-30T03:32:16.014Z",
+			"end": "2017-08-30T03:32:16.154Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-17T10:53:37.429Z",
-					"end": "2017-08-17T10:53:37.429Z",
+					"start": "2017-08-30T03:32:16.016Z",
+					"end": "2017-08-30T03:32:16.016Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "metod",
 					"associatedTest": "should return array containing a list of methods"
 				},
 				{
-					"start": "2017-08-17T10:53:37.547Z",
-					"end": "2017-08-17T10:53:37.548Z",
-					"duration": 1,
+					"start": "2017-08-30T03:32:16.153Z",
+					"end": "2017-08-30T03:32:16.153Z",
+					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "metod",
 					"associatedTest": "should return array containing a list of methods"
 				},
 				{
-					"start": "2017-08-17T10:53:37.548Z",
-					"end": "2017-08-17T10:53:37.549Z",
-					"duration": 1,
+					"start": "2017-08-30T03:32:16.154Z",
+					"end": "2017-08-30T03:32:16.154Z",
+					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "metod"
 				}
@@ -66,15 +66,15 @@
 		},
 		{
 			"name": "`metod( Object.prototype )`",
-			"duration": 120,
-			"start": "2017-08-17T10:53:37.428Z",
-			"end": "2017-08-17T10:53:37.548Z",
+			"duration": 140,
+			"start": "2017-08-30T03:32:16.014Z",
+			"end": "2017-08-30T03:32:16.154Z",
 			"tests": [
 				{
 					"name": "should return array containing a list of methods",
-					"start": "2017-08-17T10:53:37.428Z",
-					"end": "2017-08-17T10:53:37.547Z",
-					"duration": 119,
+					"start": "2017-08-30T03:32:16.014Z",
+					"end": "2017-08-30T03:32:16.153Z",
+					"duration": 139,
 					"state": "pass"
 				}
 			],
